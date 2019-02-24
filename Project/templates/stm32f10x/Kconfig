@@ -1,0 +1,21 @@
+mainmenu "RT-Thread Configuration"
+
+config BSP_DIR
+    string
+    option env="BSP_ROOT"
+    default "."
+
+config RTT_DIR
+    string
+    option env="RTT_ROOT"
+    default "../../rt-thread"
+
+config PKGS_DIR
+    string
+    default "../../online_packages/packages_env"
+
+source "$RTT_DIR/Kconfig"
+source "$PKGS_DIR/Kconfig"
+source "../libraries/Kconfig"
+source "board/Kconfig"
+

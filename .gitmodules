@@ -1,0 +1,33 @@
+[submodule "online_packages/packages_env/packages"]
+	path = online_packages/packages_env/packages
+	url = https://github.com/RT-Thread/packages.git
+[submodule "online_packages/packages_src/at_device"]
+	path = online_packages/packages_src/at_device
+	url = https://github.com/RT-Thread-packages/at_device.git
+[submodule "rt-thread"]
+	path = rt-thread
+	url = https://github.com/RT-Thread/rt-thread.git
+[submodule "online_packages/packages_src/cJSON"]
+	path = online_packages/packages_src/cJSON
+	url = https://github.com/RT-Thread-packages/cJSON.git
+[submodule "online_packages/packages_src/EasyFlash"]
+	path = online_packages/packages_src/EasyFlash
+	url = https://github.com/armink-rtt-pkgs/EasyFlash.git
+[submodule "online_packages/packages_src/fal"]
+	path = online_packages/packages_src/fal
+	url = https://github.com/RT-Thread-packages/fal.git
+[submodule "online_packages/packages_src/netutils"]
+	path = online_packages/packages_src/netutils
+	url = https://github.com/RT-Thread-packages/netutils.git
+[submodule "online_packages/packages_src/onenet"]
+	path = online_packages/packages_src/onenet
+	url = https://github.com/RT-Thread-packages/onenet.git
+[submodule "online_packages/packages_src/paho-mqtt"]
+	path = online_packages/packages_src/paho-mqtt
+	url = https://github.com/RT-Thread-packages/paho-mqtt.git
+[submodule "online_packages/packages_src/webclient"]
+	path = online_packages/packages_src/webclient
+	url = https://github.com/RT-Thread-packages/webclient.git
+[submodule "online_packages/packages_src/webnet"]
+	path = online_packages/packages_src/webnet
+	url = https://github.com/RT-Thread-packages/webnet.git
