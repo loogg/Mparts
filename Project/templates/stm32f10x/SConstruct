@@ -54,8 +54,5 @@ objs.extend(SConscript(os.path.join(libraries_path_prefix, stm32_library, 'SCons
 # include drivers
 objs.extend(SConscript(os.path.join(RTT_ROOT, 'bsp/stm32/libraries/HAL_Drivers', 'SConscript')))
 
-# include packages
-objs.extend(SConscript(os.path.join('../..', 'online_packages/packages_src', 'SConscript')))
-
 # make a building
 DoBuilding(TARGET, objs)

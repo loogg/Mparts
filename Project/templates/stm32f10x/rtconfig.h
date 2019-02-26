@@ -4,7 +4,7 @@
 /* Automatically generated file; DO NOT EDIT. */
 /* RT-Thread Configuration */
 
-#define PKGS_DIR "../../online_packages/packages_env"
+#define PKGS_DIR "../../online_packages"
 
 /* RT-Thread Kernel */
 

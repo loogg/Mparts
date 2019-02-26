@@ -12,7 +12,7 @@ config RTT_DIR
 
 config PKGS_DIR
     string
-    default "../../online_packages/packages_env"
+    default "../../online_packages"
 
 source "$RTT_DIR/Kconfig"
 source "$PKGS_DIR/Kconfig"
